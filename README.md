@@ -27,6 +27,19 @@ Convective Bursts With Gravity Waves in Tropical Cyclones: Case Study
 With the Himawari-8 Satellite and Idealized Numerical Study.
 Geophysical Research Letters, art num. GRL60158, doi:10.1029/2019GL086295
 
+## Programing language
+
+Ruby
+
+## Installation
+
+To use the model, you need the class library GPhys 
+(http://ruby.gfd-dennou.org/products/gphys/doc/),
+which you can install by
+
+```gem install gphys
+```
+
 ## Usage
 
 ```$ ruby boussinesq2D_CBmodel.rb [options]
@@ -41,8 +54,9 @@ See the source code for available options.
 * anelastic2D.rb : anelastic version of the model It defines the class
   NumRu::Anelastic2D, which is defined by inheriting NumRu::Boussinesq2D
 * boussinesq2D_CBmodel.rb : the driver
+* fftw_ext.rb : extension of NumRu::FFTW3
 
+## Remark
 
-
-
-
+Initially, the comments in the source code is in Japanese,
+but it will be revised to English. Sorry about the inconvenience.
