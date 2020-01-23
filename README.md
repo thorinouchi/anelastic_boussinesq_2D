@@ -4,8 +4,7 @@ A simple 2D spectral Anelastic/Boussineq model developed for the Horinouchi et a
 ## Author
 
 Takeshi Horinouchi
-horinout __at__ 
-ees.hokudai.ac.jp
+horinout __at__ ees (.) hokudai (.) ac (.) jp
 
 ## Description
 
