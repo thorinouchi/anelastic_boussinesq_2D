@@ -36,12 +36,14 @@ To use the model, you need the class library GPhys
 (http://ruby.gfd-dennou.org/products/gphys/doc/),
 which you can install by
 
-```gem install gphys
+```
+gem install gphys
 ```
 
 ## Usage
 
-```$ ruby boussinesq2D_CBmodel.rb [options]
+```
+$ ruby boussinesq2D_CBmodel.rb [options]
 ```
 
 See the source code for available options.
